@@ -10,6 +10,7 @@ Dostępne funkcjonalności:
   •	Standardowa możliwość kontaktu z autorami przez wysłanie wiadomości e-mail, aby przekazać ewentualne uwagi, napotkane problemy.
 
 ##Opis wyglądu aplikacji
+
 Aplikacja składa się z kilku aktywności. Na samym początku użytkownik ma do wyboru 3 przyciski (rynek, portfel oraz autorzy). Istnieje także możliwość skorzystania z menu, które przekierowuje użytkownika do ustawień.
 Aktywności:
   •	Aktywność główna (jak wspomniano zawiera w sobie 3 przycisku odsyłające do innych aktywności oraz menu rozsuwane)
