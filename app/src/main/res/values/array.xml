@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="krypto_name_full">
+        <item>Bitcoin</item>
+        <item>Ripple</item>
+        <item>Ethereum</item>
+        <item>New Economy Movement</item>
+        <item>Litecoin</item>
+        <item>Dash</item>
+        <item>Ethereum Classic</item>
+        <item>Stellar Lumens</item>
+        <item>Monero</item>
+        <item>Bytecoin</item>
+        <item>Steem</item>
+        <item>Golem</item>
+        <item>Augur</item>
+        <item>Dogecoin</item>
+        <item>MaidSafeCoin</item>
+        <item>Gnosis</item>
+        <item>BitShares</item>
+        <item>Waves</item>
+        <item>GameCredits</item>
+        <item>PLNcoin</item>
+    </string-array>
+    <string-array name="krypto_name_short">
+        <item>BTC</item>
+        <item>XRP</item>
+        <item>ETH</item>
+        <item>XEM</item>
+        <item>LTC</item>
+        <item>DASH</item>
+        <item>ETC</item>
+        <item>XLM</item>
+        <item>XMR</item>
+        <item>BCN</item>
+        <item>STEEM</item>
+        <item>GNT</item>
+        <item>REP</item>
+        <item>DOGE</item>
+        <item>MAID</item>
+        <item>GNO</item>
+        <item>BTS</item>
+        <item>WAVES</item>
+        <item>GAME</item>
+        <item>PLNC</item>
+    </string-array>
+    <string-array name="krypto_description">
+        <item>Kryptowaluta powstała w 2008 roku. Jest to obecnie najpopularniejsza kryptowaluta na rynku. Jej podstawową cechą jest to, że ilość jednostek na rynku nigdy nie przekroczy 21 milionów, a dane z początku roku 2017 wskazują, ze wydobyto już 80% tej liczby.
+    \nBitcoin jak większość kryptowalut nie jest oficjalnie uznawany przez państwa świata za walutę.</item>
+        <item>Ripple to firma, która stworzyła "Ripple payment protocol". Jest to więc kryptowaluta kontrolowana przez konkretne przedsiębiorstwo. Ilość sztuk na rynku to ponad 38mld. Kurs Ripple utrzymuje się najczęściej na stosunkowo niskim poziomie, dlatego wartość całego rynku jest niższa niż w przypadku kryptowalut z mniejszą liczbą jednostek na rynku.
+    \n Ważną informacją jest to, że ilość tej kryptowaluty na rynku już nie wzrośnie- została ona sztucznie ogarniczona.</item>
+        <item>Kryptowaluta zaproponowana w 2013 roku, ufundowana przez zbiórkę online w 2014, a uruchomiona w 2015. Druga kryptowaluta pod względem wartości całego rynku. Na początku roku 2017 na rynku było ponad 92mln sztuk tej kryptowaluty. </item>
+        <item>Kryptowaluta powstała w marcu 2015 roku. Ilość sztuk na rynku została ograniczona do 9mld bez jednej jednostki. Jej kurs utrzymuje się na podobnie niskim poziomie jak Ripple, dlatego wartość rynku jest niższa.</item>
+        <item>Kryptowaluta powstała na zasadzie otwartej licencji. Jej zasada działania jest bardzo pdoobna do Bitcoina jednak został zmniejszony czas potrzebny na wykonanie transakcji. Ilość kryptowaluty została ograniczona do 84mln.</item>
+        <item>Kryptowaluta oparta o open-source przeznaczona dla transakcji prywatnych. Została uruchomiona w marcu 2015 roku. Na początku 2017 roku pod względem wartości rynkowej była ona na 7 miejscu z ponad 7,3mln jednostek.</item>
+        <item>Kryptowaluta oprarta o open-source uruchomiona w 2015 roku. Powstała jako wynik zmian w walucie Ethereum, jako odłam części użytkowników na nie się nie godzących. Na początku 2017 roku była to 5 kryptowaluta pod względem wartości rynku z 92mln jednostek.</item>
+        <item>Kryptowaluta ufundowana w 2014 roku przez Jeda McCaleba i Joyce Kima z Stellar Development Foundation. Na początku 2017 roku 11 kryptowaluta pod względem wielkości rynku z 9,6mld jednostekami (sztucznie ustalona granica). Tej kryptowaluty się nie wydobywa tak jak to ma miejsce np. w przypadku Bitcoina.</item>
+        <item>Kryptowaluta open-sourcowa stworzona w 2014 roku skupiająca się na prywatności oraz decentralizacji. Maksymalna ilość jednostek na rynku to ok. 18,4mln, a na początku 2017 roku wydobyto już 14,5mln. Monero było też w tym okresie na 8 miejscem pod względem wartości rynku.</item>
+        <item>Otwarta, zdecentralizowana kryptowaluta. Ilość kryptowaluty na rynku została określona na prawie 183mld, ale jej stosunkowo niski kurs powoduje, że na początku 2017 roku była to 9 kryptowaluta pod względem wartości.</item>
+        <item>Kryptowaluta powstała w 2016 roku. Zasady działania nie różnią się od innych kryptowalut. Na początku 2017 roku na rynku było prawie 234mln jednostek, a jego wartość dawała mu 18 miejsce.</item>
+        <item>10 kryptowaluta pod względem wartości rynku na początku 2017 roku z sztywnie ustaloną liczbą jednostek na poziomie 824mln.</item>
+        <item>Open-sourcowa kryptowaluta bazująca na rozwiązaniach Ethereum uruchomiona w 2016 roku. Wartość rynku na początku 2017 roku dawała jej 16 miejsce. Istotną cechą jest ograniczona ilość jednostek do 11 milionów.</item>
+        <item>Kryptowaluta, która została przedstawiona jako żart (mem jako logo) w grudniu 2013 roku jednak szybko zyskała na popularności stając się poważną kryptowalutą. Wartość rynku na początku 2017 roku dawała jej 13 miejsce z ponad 109mld sztuk.</item>
+        <item>20 kryptowaluta pod względem wartości rynku na początku 2017 roku. Posiada zaprogramowanie ogarniczenie do 452,5mln sztuk.</item>
+        <item>Kryptowaluta bazująca na Ethereum. Na początku 2017 roku była to 17 kryptowaluta pod względem wartości rynku. Ilość sztuk wynosi 1,1mln i nigdy się nie zmieni.</item>
+        <item>Zasady działania są podobne jak w wypadku innych kryptowalut. Ilość jednostek na rynku została ustalona na 2,6mld, a jego wartość na początku 2017 roku dawała tej kryptowalucie 22 miesjce.</item>
+        <item>Zdecentralizowana kryptowaluta o cecha podobnych do innych tego typu. Ilość jednostek na rynku została ograniczona do 100mln, a wartość tego rynku na początku 2017 roku dała tej kryptowalucie 15 miejsce.</item>
+        <item>Kryptowaluta powstała z myślą o rynku gamingowym. Przykładowo producenci gier mogą z niej korzystać jako z bezpiecznego i łatwego środka płatności za swój produkt. Na początku 2017 roku ilość tej kryptowaluty na rynku wyniosła prawie 63mln, a wartość dawała jej 23 miejsce.</item>
+        <item>Kryptowaluta powstała w 2014 roku i jest to projekt rozwijany przez polskich programistów. Jej wartość na rynku jest znacznie mniejsza niż pozostałych kryptowalut przedstawionych w tej aplikacji. Na początku 2017 roku PLNCoin był dostepny w ilości 17mln, jednak bardzo niski kurs daje odległe miejsce w zestawieniu wartości.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/set2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:stretchColumns="0,1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Wybierz walutę:"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/waluty"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:background="#55000000"
+                        android:entries="@array/waluty"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Powiadomienia (zmiana wartości)"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+
+                    <Spinner
+                        android:id="@+id/zmiana"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:background="#55000000"
+                        android:entries="@array/zmiana"
+                        android:textColor="@android:color/black" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <Switch
+                        android:id="@+id/switch1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#66FFFFFF"
+                        android:checked="false"
+                        android:elevation="1dp"
+                        android:onClick="zmianaSwitcha"
+                        android:text="Ustawić hasło do portfela?"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/stare"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#66FFFFFF"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:hint="Podaj stare hasło:"
+                        android:inputType="textPassword"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#000000"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/nowe1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#66FFFFFF"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:hint="Podaj nowe hasło:"
+                        android:inputType="textPassword"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#000000"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/nowe2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#66FFFFFF"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:hint="Podaj nowe hasło:"
+                        android:inputType="textPassword"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#000000"
+                        android:textSize="20dp" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+
+            </TableLayout>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3.6"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.5"
+            android:background="@android:color/holo_green_dark"
+            android:onClick="potwierdz"
+            android:text="Potwierdź"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:onClick="anuluj"
+            android:text="Anuluj"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    </LinearLayout>

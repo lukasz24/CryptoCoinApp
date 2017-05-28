@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <item name="table" type="id"/>
+    <item name="row" type="id"/>
+    <item name="txt1" type="id"/>
+    <item name="txt2" type="id"/>
+    <item name="txt3" type="id"/>
+    <item name="lay" type="id"/>
+    <item name="table2" type="id"/>
+    <item name="row2" type="id"/>
+    <item name="lay2" type="id"/>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/market2"
+            android:onClick="rynek"
+            android:shadowColor="@android:color/holo_red_dark"
+            android:shadowRadius="5"
+            android:text="Rynek"
+            android:textColor="@android:color/white"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/wallet3"
+            android:onClick="portfel"
+            android:shadowColor="@android:color/holo_red_dark"
+            android:shadowRadius="5"
+            android:text="Portfel"
+            android:textColor="@android:color/white"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/autors12"
+            android:onClick="autorzy"
+            android:shadowColor="@android:color/holo_red_dark"
+            android:shadowRadius="5"
+            android:text="Autorzy"
+            android:textColor="@android:color/white"
+            android:textSize="36sp" />
+    </LinearLayout>
+</LinearLayout>
