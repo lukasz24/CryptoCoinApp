@@ -1,4 +1,4 @@
-CryptoCoinApp
+# CryptoCoinApp
 
 Aplikacja CryptoCoinApp jest przeznaczona dla urządzeń z systemem Android w wersji 4.0 lub wyższej. Jest ona bazą informacji o 20 najpopularniejszych obecnie kryptowalutach na rynku.
 Dostępne funkcjonalności:
@@ -9,7 +9,7 @@ Dostępne funkcjonalności:
   •	Istnieje możliwość ustalenia hasła dostępu do portfela.
   •	Standardowa możliwość kontaktu z autorami przez wysłanie wiadomości e-mail, aby przekazać ewentualne uwagi, napotkane problemy.
 
-Opis wyglądu aplikacji
+## Opis wyglądu aplikacji
 
 Aplikacja składa się z kilku aktywności. Na samym początku użytkownik ma do wyboru 3 przyciski (rynek, portfel oraz autorzy). Istnieje także możliwość skorzystania z menu, które przekierowuje użytkownika do ustawień.
 Aktywności:
@@ -20,9 +20,10 @@ Aktywności:
   •	Autorzy – krótkie informacje o autorach oraz możliwość wysłania wiadomości e-miał z uwagami.
   •	Ustawienia – miejsce, w którym użytkownik ma możliwość zdefiniowania wspomnianej waluty, w której chce obserwować wartości kryptowalut oraz portfela, a także ma możliwość ustawienia hasła dostępu do portfela (wybór opcji za pomocą switcha).
 
-Szczegółowy opis
+## Szczegółowy opis
 
-Klasy wchodzące w skład aplikacji:
+### Klasy wchodzące w skład aplikacji:
+
 1.	AdapterListy
 2.	Autorzy
 3.	DatabaseHandler
@@ -39,7 +40,7 @@ Klasy wchodzące w skład aplikacji:
 Aplikacja wykorzystuje do działania bazę danych, preferencje oraz zapis do pliku. Wymienione wyżej klasy służą do obsługi aktywności lub wspomnianej bazy danych. 
 Do stworzenia graficznej oprawy wykorzystano wiele layoutów (różne rodzaje).
 
-Opis wybranych klas
+## Opis wybranych klas
 
 Klasy DatabaseHandler, KryptoDAO, Kryptos są związane z przechowywaniem informacji pobranych za pomocą API (https://www.cryptonator.com/api/) w bazie danych oraz umożliwiają dostęp do nich w aktywnościach.
 
@@ -47,23 +48,23 @@ Aktywność główna
 
 Zawiera w sobie 3 przyciski odsyłające do innych aktywności oraz rozsuwane menu, które pozwala na przejście do ustawień. Jeśli użytkownik zadeklaruje hasło w ustawieniach to po wciśnięciu przycisku kierującego do Portfela wyświetla się okno dialogowe proszące o podanie tegoż hasła. Jeśli zostanie wprowadzone błędne hasło wyświetla się odpowiedni komunikat, a aplikacja wraca do widoku aktywności głównej. Jeśli hasło będzie poprawne użytkownik trafia do aktywności Portfel.
 
-Rynek
+### Rynek
 
 Aktywność ta składa się z przycisku, który otwiera okno z listą 20 kryptowalut, które można zaznaczyć jako obserwowane. Po zaznaczeniu jakiejś (lub kilku opcji) i potwierdzeniu tego wyboru informacje o danych kryptowalutach pojawiają się na ekranie w formie listy. Można tam zobaczyć logo, nazwę kryptowaluty oraz jej wartość i zmianę tej wartości. Po kliknięciu w daną pozycję na liście otwiera się aktywność, która wyświetla informacje o danej kryptowalucie.
 
-Portfel
+### Portfel
 
 Zawiera w sobie dwa przyciski pozwalające dodać lub odjąć kryptowalutę z portfela. Po dodaniu jakiejś waluty informacje o niej (nazwa, ilość sztuk, wartość) pojawia się na ekranie. Użytkownik może także obserwować informację dotyczącą podsumowania wartości portfela, które to zmienia się dynamicznie w zależności od dodawanych/odejmowanych sztuk kryptowalut.
 
-Autorzy
+### Autorzy
 
 Aktywność ta składa się z elementów ułatwiających graficzny rozkład takich jak: TableLayout, imageview, textView oraz jednego przycisku, który to odpowiada za inicjację zdarzenia odpowiedzialnego za wysyłanie wiadomości e-mail. 
 
-Ustawienia
+### Ustawienia
 
 Jest to aktywność, która zawiera w sobie dwa Spinnery umożlwiające wybór waluty oraz czasu odświeżania. Znajduje się tam także Switch, który aktywuje (lub dezaktywuje) pola tekstowe służące do wprowadzania hasła lub jego zmieniania. Ostatnimi elementami są dwa przyciski, które odpowiadają albo za potwierdzenie wprowadzonych zmian, albo za ich anulowanie oraz powrót do aktywności głównej.
 
-Sposób obsługi
+## Sposób obsługi
 
 Użytkownik korzystając z menu-ustawienia może wybrać preferowaną walutę oraz ustawić hasło do portfela, a także wybrać próg zmiany kursu waluty, przy którym mają wyświetlać się stosowne komunikaty. 
 Wybór walut do obserwowania w rynku odbywa się za pomocą zaznaczenia/odznaczenia wybranych walut za pomocą checboxów w liście pojawiającej się po naciśnięciu przyciska „dodaj walutę” oraz potwierdzeniu wyboru przyciskiem „ok”.
@@ -74,8 +75,7 @@ Pole wyświetlające sumę wartości portfela zmienia kolor tekstu w zależnośc
 Kliknięcie na wybraną walutę w aktywności Rynek powoduje przejście do szczegółów z nią związanych- krótki opis oraz informacje o zmianach kursów.
 Do pobrania aktualnych kursów walut i poprawnego działania aplikacji potrzebne jest połączenie z Internetem.
 
-Autorzy
+## Autorzy
 
 Radosław Smyksy 188182
-
 Łukasz Pudzisz 187924
