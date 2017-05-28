@@ -1,4 +1,5 @@
-##CryptoCoinApp
+CryptoCoinApp
+
 Aplikacja CryptoCoinApp jest przeznaczona dla urządzeń z systemem Android w wersji 4.0 lub wyższej. Jest ona bazą informacji o 20 najpopularniejszych obecnie kryptowalutach na rynku.
 Dostępne funkcjonalności:
   •	Wybór kryptowalut, które chcemy śledzić – możliwe obserwowanie ich kursu, oraz zmian tegoż kursu.
