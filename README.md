@@ -1,4 +1,4 @@
-##CryptoCoinApp
+CryptoCoinApp
 
 Aplikacja CryptoCoinApp jest przeznaczona dla urządzeń z systemem Android w wersji 4.0 lub wyższej. Jest ona bazą informacji o 20 najpopularniejszych obecnie kryptowalutach na rynku.
 Dostępne funkcjonalności:
@@ -9,7 +9,7 @@ Dostępne funkcjonalności:
   •	Istnieje możliwość ustalenia hasła dostępu do portfela.
   •	Standardowa możliwość kontaktu z autorami przez wysłanie wiadomości e-mail, aby przekazać ewentualne uwagi, napotkane problemy.
 
-##Opis wyglądu aplikacji
+Opis wyglądu aplikacji
 
 Aplikacja składa się z kilku aktywności. Na samym początku użytkownik ma do wyboru 3 przyciski (rynek, portfel oraz autorzy). Istnieje także możliwość skorzystania z menu, które przekierowuje użytkownika do ustawień.
 Aktywności:
@@ -20,7 +20,7 @@ Aktywności:
   •	Autorzy – krótkie informacje o autorach oraz możliwość wysłania wiadomości e-miał z uwagami.
   •	Ustawienia – miejsce, w którym użytkownik ma możliwość zdefiniowania wspomnianej waluty, w której chce obserwować wartości kryptowalut oraz portfela, a także ma możliwość ustawienia hasła dostępu do portfela (wybór opcji za pomocą switcha).
 
-##Szczegółowy opis
+Szczegółowy opis
 
 Klasy wchodzące w skład aplikacji:
 1.	AdapterListy
@@ -49,7 +49,7 @@ Aktywność ta składa się z elementów ułatwiających graficzny rozkład taki
 Ustawienia
 Jest to aktywność, która zawiera w sobie dwa Spinnery umożlwiające wybór waluty oraz czasu odświeżania. Znajduje się tam także Switch, który aktywuje (lub dezaktywuje) pola tekstowe służące do wprowadzania hasła lub jego zmieniania. Ostatnimi elementami są dwa przyciski, które odpowiadają albo za potwierdzenie wprowadzonych zmian, albo za ich anulowanie oraz powrót do aktywności głównej.
 
-##Sposób obsługi
+Sposób obsługi
 
 Użytkownik korzystając z menu-ustawienia może wybrać preferowaną walutę oraz ustawić hasło do portfela, a także wybrać próg zmiany kursu waluty, przy którym mają wyświetlać się stosowne komunikaty. 
 Wybór walut do obserwowania w rynku odbywa się za pomocą zaznaczenia/odznaczenia wybranych walut za pomocą checboxów w liście pojawiającej się po naciśnięciu przyciska „dodaj walutę” oraz potwierdzeniu wyboru przyciskiem „ok”.
@@ -60,7 +60,7 @@ Pole wyświetlające sumę wartości portfela zmienia kolor tekstu w zależnośc
 Kliknięcie na wybraną walutę w aktywności Rynek powoduje przejście do szczegółów z nią związanych- krótki opis oraz informacje o zmianach kursów.
 Do pobrania aktualnych kursów walut i poprawnego działania aplikacji potrzebne jest połączenie z Internetem.
 
-####Autorzy
+Autorzy
 
 Radosław Smyksy 188182
 Łukasz Pudzisz 187924
