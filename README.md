@@ -34,19 +34,32 @@ Klasy wchodzące w skład aplikacji:
 9.	Portfel
 10.	ShowDetailsActivity
 11.	Ustawienia
+
 Aplikacja wykorzystuje do działania bazę danych, preferencje oraz zapis do pliku. Wymienione wyżej klasy służą do obsługi aktywności lub wspomnianej bazy danych. 
 Do stworzenia graficznej oprawy wykorzystano wiele layoutów (różne rodzaje).
+
 Opis wybranych klas
+
 Klasy DatabaseHandler, KryptoDAO, Kryptos są związane z przechowywaniem informacji pobranych za pomocą API (https://www.cryptonator.com/api/) w bazie danych oraz umożliwiają dostęp do nich w aktywnościach.
+
 Aktywność główna
+
 Zawiera w sobie 3 przyciski odsyłające do innych aktywności oraz rozsuwane menu, które pozwala na przejście do ustawień. Jeśli użytkownik zadeklaruje hasło w ustawieniach to po wciśnięciu przycisku kierującego do Portfela wyświetla się okno dialogowe proszące o podanie tegoż hasła. Jeśli zostanie wprowadzone błędne hasło wyświetla się odpowiedni komunikat, a aplikacja wraca do widoku aktywności głównej. Jeśli hasło będzie poprawne użytkownik trafia do aktywności Portfel.
+
 Rynek
+
 Aktywność ta składa się z przycisku, który otwiera okno z listą 20 kryptowalut, które można zaznaczyć jako obserwowane. Po zaznaczeniu jakiejś (lub kilku opcji) i potwierdzeniu tego wyboru informacje o danych kryptowalutach pojawiają się na ekranie w formie listy. Można tam zobaczyć logo, nazwę kryptowaluty oraz jej wartość i zmianę tej wartości. Po kliknięciu w daną pozycję na liście otwiera się aktywność, która wyświetla informacje o danej kryptowalucie.
+
 Portfel
+
 Zawiera w sobie dwa przyciski pozwalające dodać lub odjąć kryptowalutę z portfela. Po dodaniu jakiejś waluty informacje o niej (nazwa, ilość sztuk, wartość) pojawia się na ekranie. Użytkownik może także obserwować informację dotyczącą podsumowania wartości portfela, które to zmienia się dynamicznie w zależności od dodawanych/odejmowanych sztuk kryptowalut.
+
 Autorzy
+
 Aktywność ta składa się z elementów ułatwiających graficzny rozkład takich jak: TableLayout, imageview, textView oraz jednego przycisku, który to odpowiada za inicjację zdarzenia odpowiedzialnego za wysyłanie wiadomości e-mail. 
+
 Ustawienia
+
 Jest to aktywność, która zawiera w sobie dwa Spinnery umożlwiające wybór waluty oraz czasu odświeżania. Znajduje się tam także Switch, który aktywuje (lub dezaktywuje) pola tekstowe służące do wprowadzania hasła lub jego zmieniania. Ostatnimi elementami są dwa przyciski, które odpowiadają albo za potwierdzenie wprowadzonych zmian, albo za ich anulowanie oraz powrót do aktywności głównej.
 
 Sposób obsługi
