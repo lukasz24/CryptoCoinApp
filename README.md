@@ -77,4 +77,5 @@ Do pobrania aktualnych kursów walut i poprawnego działania aplikacji potrzebne
 Autorzy
 
 Radosław Smyksy 188182
+
 Łukasz Pudzisz 187924
