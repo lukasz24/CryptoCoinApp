@@ -35,6 +35,7 @@ Klasy wchodzące w skład aplikacji:
 10.	ShowDetailsActivity
 11.	Ustawienia
 
+
 Aplikacja wykorzystuje do działania bazę danych, preferencje oraz zapis do pliku. Wymienione wyżej klasy służą do obsługi aktywności lub wspomnianej bazy danych. 
 Do stworzenia graficznej oprawy wykorzystano wiele layoutów (różne rodzaje).
 
